@@ -1,0 +1,37 @@
+{
+    "employees": [
+        {
+            "name": "Prince Seth",
+            "shortname": "seth_p",
+            "title": "Software Engineer",
+            "summary": "<p>Software Engineer</p>",
+            "work": [
+                "JAVA",
+                "Node.js",
+                "MYSQL"
+            ]
+        },
+        {
+            "name": "Roy Smith",
+            "shortname": "smith_r",
+            "title": "Quality Expert",
+            "summary": "<p>Software Tester</p>",
+            "work": [
+                "PHP",
+                "Node.js",
+                "PLSQL"
+            ]
+        },
+        {
+            "name": "Chirtina Knocker",
+            "shortname": "knocker_c",
+            "title": "DevOps",
+            "summary": "<p>Deployement Expert</p>",
+            "work": [
+                "DOCKER",
+                "Kubernetes",
+                "AWS"
+            ]
+        }
+    ]
+}

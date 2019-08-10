@@ -1,0 +1,23 @@
+extends layout/index
+block employeeslist
+  include includes/employeeslist
+block content    
+  #home.container
+    .row
+      .col-sm-8
+        .maincontent
+          article.article
+            h1.article-title Who are we?
+            p
+              | Best Software developer team
+            p
+              | Happy Coding
+          // article
+          article.article
+            h1.article-title Contact Us!
+            p
+              | If you want to keep in touch 
+              a(href='http://www.linkedin.com/in/princeseth') Connect Here
+              | .
+
+      include includes/sidebar

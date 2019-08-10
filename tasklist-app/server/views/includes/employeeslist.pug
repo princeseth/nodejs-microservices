@@ -1,0 +1,12 @@
+article.employeeslist.jumbotron.hidden-xs
+  .container
+    .row
+      each employee in employeeslist
+        .col-sm-4.text-center
+          h3.employeeslist-title=employee.title
+          h5.employeeslist-name
+            | with &nbsp;
+            a(href=`/employees/${employee.shortname}`)=employee.name
+          p.employeeslist-info
+            a(href=`/employees/${employee.shortname}`)
+              img.employeeslist-img.img-circle(src=`/images/employees/${employee.shortname}_sm.jpg`, alt=`Photo of ${employee.name}`)

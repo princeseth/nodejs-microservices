@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Develop Monolithic Application",
+        "estimation": "8 Hrs",
+        "description": "Landing & other Page."
+    },
+    {
+        "name": "Implement Service Registery",
+        "estimation": "2 Hrs",
+        "description": "Service registery for task and employees."
+    },
+    {
+        "name": "Employee Service",
+        "estimation": "4 Hrs",
+        "description": "Develop service to get list of employees, get employee by name and others."
+    },
+    {
+        "name": "Task Service",
+        "estimation": "3 Hrs",
+        "description": "Develop service to get list of tasks."
+    }
+]

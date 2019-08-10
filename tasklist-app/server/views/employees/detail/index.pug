@@ -1,0 +1,23 @@
+extends ../../layout/index
+block content
+  #employeeDetail.container
+    .row
+      .col-sm-8
+        article.employeeslist
+          .container
+            .row
+              .col-sm-8
+                h3.employeeslist-title=employee.title
+                h5.employeeslist-name
+                  | &nbsp;
+                  a(href=`/employees/${employee.shortname}`)=employee.name
+                p.employeeslist-info
+                  a(href=`/employees/${employee.shortname}`)
+                  img.employeeslist-img.img-responsive.pull-left(src=`/images/employees/${employee.shortname}.jpg`, alt=`Photo of ${employee.name}`)                
+                !=employee.summary
+            // row
+          // container
+      // primary
+      aside.col-sm-4
+        article.sidebar
+          include ../../includes/work

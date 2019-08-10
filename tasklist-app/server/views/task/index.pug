@@ -1,0 +1,29 @@
+extends ../layout/index
+block content
+  #task.container
+    .row
+      .col-sm-4
+        h1.task-form-title 
+        if error
+          .alert.alert-danger
+            | There was an error handling your request. Please try again?
+        else if success
+          .alert.alert-success
+            | New task added!         
+      // primary
+      aside.col-sm-8
+        .maincontent.task
+          h2.article-title Recent Task
+          if !tasksList || !tasksList.length
+            | No task so far! Please add first one.
+          else  
+            .task-messages
+              each item in tasksList
+                .task-item.item-list.media-list
+                  .task-item.media
+                    .task-info.media-body
+                      .task-head
+                        .task-title=item.name
+                          | &nbsp;
+                          small.task-name.label.label-info=item.estimation
+                      .task-message=item.description
