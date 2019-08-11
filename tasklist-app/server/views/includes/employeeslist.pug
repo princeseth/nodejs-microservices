@@ -5,7 +5,7 @@ article.employeeslist.jumbotron.hidden-xs
         .col-sm-4.text-center
           h3.employeeslist-title=employee.title
           h5.employeeslist-name
-            | with &nbsp;
+            | &nbsp;
             a(href=`/employees/${employee.shortname}`)=employee.name
           p.employeeslist-info
             a(href=`/employees/${employee.shortname}`)

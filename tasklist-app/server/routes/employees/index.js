@@ -9,7 +9,8 @@ module.exports = (param) => {
     try {
       const promises = [];
       promises.push(employees.getList());
-      promises.push(employees.getAllWork());
+      promises.push(employees.getWorkList());
+
 
       const results = await Promise.all(promises);
 

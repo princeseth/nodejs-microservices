@@ -10,11 +10,11 @@ block content
                 .col-sm-8
                   h3.employeeslist-title=employee.title
                   h5.employeeslist-name
-                    | with &nbsp;
+                    | &nbsp;
                     a(href=`/employees/${employee.shortname}`)=employee.name
                   p.employeeslist-info
                     a(href=`/employees/${employee.shortname}`)
-                      img.employeeslist-img.img-circle.pull-left(src=`/images/employee/${employee.shortname}_sm.jpg`, alt=`Photo of ${employee.name}`)
+                      img.employeeslist-img.img-circle.pull-left(src=`/images/employees/${employee.shortname}_sm.jpg`, alt=`Photo of ${employee.name}`)
                     | #{employee.summary}  
       aside.col-sm-4
         article.sidebar

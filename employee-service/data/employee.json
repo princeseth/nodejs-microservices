@@ -4,7 +4,7 @@
             "name": "Prince Seth",
             "shortname": "seth_p",
             "title": "Software Engineer",
-            "summary": "<p>Software Engineer</p>",
+            "summary": "Software Engineer",
             "work": [
                 "JAVA",
                 "Node.js",
@@ -15,7 +15,7 @@
             "name": "Roy Smith",
             "shortname": "smith_r",
             "title": "Quality Expert",
-            "summary": "<p>Software Tester</p>",
+            "summary": "Software Tester",
             "work": [
                 "PHP",
                 "Node.js",
@@ -26,7 +26,7 @@
             "name": "Chirtina Knocker",
             "shortname": "knocker_c",
             "title": "DevOps",
-            "summary": "<p>Deployement Expert</p>",
+            "summary": "Deployement Expert",
             "work": [
                 "DOCKER",
                 "Kubernetes",
